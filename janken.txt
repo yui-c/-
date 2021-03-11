@@ -1,0 +1,15 @@
+#前回自分が勝った手を出すボット、自分のボットはcat_bot
+def cat_bot(data_log):
+    if data_log["cat_bot"]["point"] == []:
+        return "p"
+    else:
+      for i in data_log:
+        if i != "cat_bot":
+          if data_log["cat_bot"]["point"] == 1:#自分が勝った場合
+            x = 0
+            x += 1  #一番最後に勝った順番(数字)
+          else:
+            if data_log["cat_bot"]["point"] != 1:#自分の勝ちがなかったら相手の一個前の手を出す
+              return data_log[i]["gcp"][-1]
+            else: #勝ちがあったら最後に勝った手を出す
+              return data_log["cat_bot"]["gcp"][x]
