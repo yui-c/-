@@ -1,0 +1,142 @@
+body {
+    background: linear-gradient(150deg, #FFF, #f8bda3) fixed; 
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#nav a:link {color: #;}
+#nav a:visited {color: #;}
+#nav a:hover {color: #f99d05;}
+
+header {
+    margin: px;
+    background-color: ; 
+    position: ;
+}
+
+#nav {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+#nav li{
+    width: ;
+    text-align: center;
+ /*   display: inline-block;*/
+    
+}
+
+#nav li a {
+    text-decoration: underline;
+    color: #f8bda3;
+    font-weight: bold;
+}
+#contact {
+    background-color: ;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header2 {
+    
+}
+
+.title1 {
+    position: ;
+    width: 100%;
+    display: ;
+    padding-left: 5em;
+    margin-bottom: 3em;
+  /*margin-top: 100px;*/
+
+}
+/*
+.title1-1 {
+    padding-left: 20px;
+}
+*/
+
+.title-p {
+    margin: 0;
+}
+span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fc77f7;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: monospace;
+    color: #f99d05;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+.sec a:link {color: #;}
+.sec a:visited {color: #;}
+.sec a:hover {color: #f99d05;}
+
+.sec {
+    background-image: url(sechaikei.jpg);
+    background-size: cover;
+    position: absolute;
+    padding: 10px;
+    padding-left: 40px;
+    width: 650px;height: 360px; 
+    display: block;
+    
+}
+
+.haikei img{
+    width: 20em;
+    height: 20em;
+    position: relative;
+    float: right;
+}
+
+.sec1 {
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    float: left;
+    background-color: #fff;
+    
+}
+
+.style1 a {
+    color: #8a67ab;
+    float: left;
+    margin: 30px;
+}
+.style2 a {
+     color: #bb6894;
+    float: left;
+    margin: 30px;
+}
+.style3 a {
+    color: #e2807f;
+    float: left;
+    margin: 30px;
+}
+
+
